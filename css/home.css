@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.CContainer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.Cnavbar {
+  background-color: #a1553e;
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.Csidebar {
+  background-color: #d39a89;
+  height: 90vh;
+  width: 20%;
+}
+
+.Cmain {
+  background-color: #f7d1ba;
+  height: 90vh;
+  width: 57%;
+  padding: 0px;
+  overflow: auto;
+}
+
+.Cbilling {
+  background-color: #faae58;
+  height: 90vh;
+  width: 23%;
+}
+
+.welcomeUser {
+  color: white;
+}
+
+.banner {
+  color: white;
+}
+
+.rounded-table {
+  border-radius: 10px;
+}
+
+
+
